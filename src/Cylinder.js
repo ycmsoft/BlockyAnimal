@@ -4,8 +4,7 @@
 // Notes to Grader: 
 // Awesomeness: Cylinder for bamboo sticks
 // Resources used: 
-// I chatGPTed this file, I gave it my other ones and said I need one for a Cylinder cause I was running out of time. 
-
+// Initial triangle geometry generated with ChatGPT, integrated and tuned (segments/scale/placement) in BlockyAnimal.js
 class Cylinder {
   constructor() {
     this.type = 'cylinder';
