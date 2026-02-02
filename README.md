@@ -11,10 +11,10 @@ Live Demo: https://ycmsoft.github.io/BlockyAnimal/src/BlockyAnimal.html
 - `src/Cube.js` - Cube shape class.
 - `src/Triangle.js` - Triangle shape class.
 - `src/Cylinder.js` - Cylinder shape class.
-- `lib/cuon-utils.js` - Shader utilities
-- `lib/cuon-matrix-cse160.js` - Matrix utilities
-- `lib/webgl-debug.js` - WebGL debugging utilities
-- `lib/webgl-utils.js` - WebGL utilities
+- `lib/cuon-utils.js` - Shader utilities.
+- `lib/cuon-matrix-cse160.js` - Matrix utilities.
+- `lib/webgl-debug.js` - WebGL debugging utilities.
+- `lib/webgl-utils.js` - WebGL utilities.
 - `README.md` - This readme.
 
 # Controls:
@@ -27,20 +27,20 @@ Live Demo: https://ycmsoft.github.io/BlockyAnimal/src/BlockyAnimal.html
 
 # Notes to Grader:
 Awesomeness: 
-- Non cube primitive: Cylindrical bamboo stalks using Cylinder.js
+- Non cube primitive: Cylindrical bamboo stalks using Cylinder.js.
 - Performance indicators: ms/fps shown.
 - 3 part leg chain: thigh, calf, foot, with a slight ankle motion.
-- Mouse rotation: Click and drag rotates camera view X and Y
-- Poke animation: panda does a little nod on shift + click
+- Mouse rotation: Click and drag rotates camera view X and Y.
+- Poke animation: panda does a little nod on shift + click.
 - Animation: Subtle ankle/foot motion during walking.
 
 
 # Resources used: 
 Starter code from lectures and provided course libraries (cuon-*, webgl-utils, etc.).
 
-Used ChatGPT for debugging, implementation suggestions, but I wrote/controlled final code and manually tuned the transforms and animations. 
+Used ChatGPT for debugging, implementation suggestions (motion), but I wrote/controlled final code and manually tuned the transforms and animations. 
 
-ChatGPT was helpful for a few targeted things (mouse drag rotation, a first-pass Cylinder.js, and some refactors), but it wasn't great for leg motion or for performance/FPS display logic.
+ChatGPT was helpful for mouse drag rotation and a first-pass Cylinder.js, plus some minor cleanup (pulling repeated values into constants/parameters), but it wasn't great for leg motion or for performance/FPS display logic.
 
 Specific places it helped:
 - Mouse rotation / drag controls and clamping the X rotation to avoid flipping
