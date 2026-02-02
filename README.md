@@ -18,21 +18,19 @@ Live Demo: https://ycmsoft.github.io/BlockyAnimal/src/BlockyAnimal.html
 - `README.md` - This readme.
 
 # Controls:
-  - Sliders rotate the view X and Y, and mouse drag also rotates view. 
+  - Sliders rotate the camera view X and Y.
+  - Mouse drag rotates the camera view X and Y.
   - Sliders control one leg chain joints (Right Hip / Right Knee).
   - Animation ON/OFF buttons toggle walking animation.
-  - Mouse drag rotates the view X and Y.
   - Shift + Click triggers poke animation.
 
 
 # Notes to Grader:
 Awesomeness: 
-
-
 - Non cube primitive: Cylindrical bamboo stalks using Cylinder.js
 - Performance indicators: ms/fps shown.
 - 3 part leg chain: thigh, calf, foot, with a slight ankle motion.
-- Mouse rotation: Click and drag rotates view x and y
+- Mouse rotation: Click and drag rotates camera view X and Y
 - Poke animation: panda does a little nod on shift + click
 - Animation: Subtle ankle/foot motion during walking.
 
